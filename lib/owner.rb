@@ -20,6 +20,8 @@ class Owner
       dog.owner == self
     end
   end
+  
+  
 
   def self.all
     @@all
