@@ -21,8 +21,12 @@ class Owner
     end
   end
   
+  def pets
+    @@pets
+  end
+  
   def buy_cat(cat)
-    Cat.all << Cat.new(cat)
+     << Cat.new(cat)
   end
 
   def self.all
