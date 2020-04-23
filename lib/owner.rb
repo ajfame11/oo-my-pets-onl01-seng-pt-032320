@@ -10,8 +10,8 @@ class Owner
   end
   
   def cats
-    Cat.all.select do |cat_obj|
-      cats.owner == self
+    Cat.all.select do |cat|
+      cat.owner == self
     end
   end
 
