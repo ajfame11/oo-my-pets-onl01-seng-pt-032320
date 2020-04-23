@@ -30,7 +30,8 @@ class Owner
   end
   
   def walk_dogs
-    
+    dogs.each do |mood|
+      @mood = happy
   end
 
   def self.all
